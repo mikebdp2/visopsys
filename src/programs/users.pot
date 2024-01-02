@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: users.c:64
+msgid "User Manager"
+msgstr ""
+
+#: users.c:65 users.c:692
+msgid "Add User"
+msgstr ""
+
+#: users.c:66
+msgid "Delete User"
+msgstr ""
+
+#: users.c:67
+msgid "Set Password"
+msgstr ""
+
+#: users.c:68
+msgid "Set Language"
+msgstr ""
+
+#: users.c:96
+msgid "Error"
+msgstr ""
+
+#: users.c:114
+msgid "Error getting user names"
+msgstr ""
+
+#: users.c:190
+#, c-format
+msgid "User name: %s"
+msgstr ""
+
+#: users.c:203
+msgid "Old password:"
+msgstr ""
+
+#: users.c:217
+msgid "New password:"
+msgstr ""
+
+#: users.c:234
+msgid "Confirm password:"
+msgstr ""
+
+#: users.c:248 users.c:424
+msgid "Passwords do not match"
+msgstr ""
+
+#: users.c:252
+msgid "Password should be longer"
+msgstr ""
+
+#: users.c:264
+msgid "OK"
+msgstr ""
+
+#: users.c:269
+msgid "Cancel"
+msgstr ""
+
+#: users.c:418 users.c:520
+msgid "Permission denied"
+msgstr ""
+
+#: users.c:420
+msgid "Error setting password"
+msgstr ""
+
+#: users.c:470
+#, c-format
+msgid "User \"%s\" already exists."
+msgstr ""
+
+#: users.c:478
+msgid "Error adding user"
+msgstr ""
+
+#: users.c:488
+msgid "Warning: couldn't create user directory"
+msgstr ""
+
+#: users.c:522
+msgid "Error deleting user"
+msgstr ""
+
+#: users.c:693
+msgid "Enter the user name:"
+msgstr ""
+
+#: users.c:712
+#, c-format
+msgid "Delete user %s?"
+msgstr ""
+
+#: users.c:714
+msgid "Delete?"
+msgstr ""
+
+#: users.c:719
+msgid "Can't delete the last user"
+msgstr ""
+
+#: users.c:746
+msgid "Couldn't save the language choice"
+msgstr ""
+
+#: users.c:844
+#, c-format
+msgid ""
+"\n"
+"The \"%s\" command only works in graphics mode\n"
+msgstr ""
+
+#: users.c:860
+#, c-format
+msgid "Unknown option '%c'\n"
+msgstr ""
+
+#: users.c:876
+msgid "Couldn't determine the current user"
+msgstr ""
+
+#: users.c:904
+#, c-format
+msgid "No such user \"%s\""
+msgstr ""
+
+#: users.c:909
+msgid "Done"
+msgstr ""
+
+#: users.c:909
+msgid "Password set"
+msgstr ""

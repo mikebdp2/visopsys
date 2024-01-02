@@ -1,0 +1,98 @@
+#
+#  Visopsys
+#  Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+#  This German translation provided by Proxma AG - www.proxma.com
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: windowArchiveList.c:55 windowFileList.c:205 windowProgressDialog.c:127
+msgid "Error"
+msgstr "Fehler"
+
+#: windowArchiveList.c:78 windowFileList.c:510
+msgid "Memory allocation error creating icon parameters"
+msgstr ""
+"Fehler bei der Speicherzuweisung während der Erstellung der Icon-Parameter"
+
+#: windowCancelDialog.c:127 windowColorDialog.c:281 windowFileDialog.c:259
+#: windowLanguageDialog.c:210 windowNumberDialog.c:174
+#: windowProgressDialog.c:260 windowPromptDialog.c:151 windowQueryDialog.c:57
+#: windowRadioDialog.c:166
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: windowColorDialog.c:32
+msgid "Color Chooser"
+msgstr "Farbauswahl"
+
+#: windowColorDialog.c:152
+msgid "Red"
+msgstr "Rot"
+
+#: windowColorDialog.c:185
+msgid "Green"
+msgstr "Grün"
+
+#: windowColorDialog.c:217
+msgid "Blue"
+msgstr "Blau"
+
+#: windowColorDialog.c:271 windowFileDialog.c:249 windowLanguageDialog.c:200
+#: windowNumberDialog.c:169 windowOkDialog.c:125 windowPromptDialog.c:141
+#: windowQueryDialog.c:57 windowRadioDialog.c:154
+msgid "OK"
+msgstr "OK"
+
+#: windowFileList.c:224
+#, c-format
+msgid "Can't locate configuration file %s"
+msgstr "Konfigurationsdatei %s konnte nicht gefunden werden"
+
+#: windowFileList.c:351 windowFileList.c:384
+msgid "(up)"
+msgstr "(zurück)"
+
+#: windowFileList.c:441
+#, c-format
+msgid "Can't get directory \"%s\" file count"
+msgstr "Das Verzeichnis \"%s\" wurde nicht gefunden Datei"
+
+#: windowFileList.c:452
+msgid "Memory allocation error"
+msgstr "Fehler bei der Speicherzuweisung"
+
+#: windowFileList.c:465
+#, c-format
+msgid "Error reading files in \"%s\""
+msgstr "Fehler beim auslesen der Dateien in \"%s\""
+
+#: windowFileList.c:844
+#, c-format
+msgid "Can't change to directory %s"
+msgstr "Es konnte nicht auf das Verzeichnis %s gewechselt werden"
+
+#: windowFileList.c:872
+#, c-format
+msgid "Error deleting file %s"
+msgstr "Fehler beim löschen der Datei %s"
+
+#: windowLanguageDialog.c:36
+msgid "Language Chooser"
+msgstr ""
+
+#: windowProgressDialog.c:116
+msgid "Confirmation"
+msgstr "Bestätigung"

@@ -1,0 +1,8 @@
+
+ -- errno --
+
+Print the error message associated with a numeric error code.
+
+Usage:
+  errno <error number>
+

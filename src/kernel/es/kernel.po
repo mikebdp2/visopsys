@@ -1,0 +1,130 @@
+# Visopsys
+# Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+# Spanish Translation - 2013 - marianopbernacki@gmail.com
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kernelFilesystemFat.c:3055
+#, c-format
+msgid "Defragmenting %llu/%llu: %s"
+msgstr "Defragmentando %llu/%llu: %s"
+
+#: kernelFilesystemFat.c:4295 kernelFilesystemFat.c:4574
+msgid "Reading filesystem info"
+msgstr "Leyendo informacion del sistema de archivos"
+
+#: kernelFilesystemFat.c:4334
+msgid "Analyzing"
+msgstr "Analizando"
+
+#: kernelFilesystemFat.c:4348
+#, c-format
+msgid "%llu files need defragmentation"
+msgstr "%llu archivos necesitan defragmentacion"
+
+#: kernelFilesystemFat.c:4458
+msgid "Checking constraints"
+msgstr "Chequeando limites"
+
+#: kernelFilesystemFat.c:4551
+msgid "Error getting resizing constraints"
+msgstr "Error al buscar los límites de cambio de tamaño"
+
+#: kernelFilesystemFat.c:4559
+#, c-format
+msgid "Filesystem cannot resize to %llu blocks (minimum is %llu)"
+msgstr ""
+"El sistema de archivos no puede cambiar su tamaño a %llu bloques.(El minimo "
+"es %llu)"
+
+#: kernelFilesystemFat.c:4564
+#, c-format
+msgid "Filesystem cannot resize to %llu blocks (maximum is %llu)"
+msgstr ""
+"El sistema de archivos no puede cambiar su tamaño a %llu bloques.(El maximo "
+"es %llu)"
+
+#: kernelFilesystemFat.c:4582 kernelFilesystemFat.c:4638
+msgid "Error reading filesystem info"
+msgstr "Error al leer la informacion del sistema de archivos"
+
+#: kernelFilesystemFat.c:4590 kernelFilesystemFat.c:4647
+msgid "Unable to create the free cluster bitmap"
+msgstr ""
+
+#: kernelFilesystemFat.c:4622
+msgid "Defragmenting"
+msgstr "Defragmentando"
+
+#: kernelFilesystemFat.c:4630
+msgid "Error defragmenting filesystem"
+msgstr "Error al defragmentar"
+
+#: kernelFilesystemFat.c:4660
+#, c-format
+msgid "Data exists outside the new size (%llu >= %llu)"
+msgstr "Aún existe informacion fuera del nuevo tamaño (%llu >= %llu)"
+
+#: kernelFilesystemFat.c:4688
+msgid "Error moving data"
+msgstr "Error moviendo datos"
+
+#: kernelFilesystemFat.c:4699
+msgid "Clearing new FAT sectors"
+msgstr "Limpiando nuevos sectores FAT"
+
+#: kernelFilesystemFat.c:4706
+msgid "Error getting memory"
+msgstr "Error ubicando memoria"
+
+#: kernelFilesystemFat.c:4725
+msgid "Error clearing new FAT sectors"
+msgstr "Error limpiando sectores FAT"
+
+#: kernelFilesystemFat.c:4738
+msgid "Error synching FAT copies"
+msgstr "Error al sincronizar las copias FAT"
+
+#: kernelFilesystemFat.c:4748
+msgid "Updating filesystem info"
+msgstr "Actualizando informacion del sistema de archivos"
+
+#: kernelFilesystemFat.c:4763 kernelFilesystemFat.c:4772
+msgid "Error updating filesystem info"
+msgstr "Error actualizando informacion del sistema de archivos"
+
+#: kernelShutdown.c:47
+msgid "Shutting down Visopsys, please wait..."
+msgstr "Apagando Visopsys, espere por favor..."
+
+#: kernelShutdown.c:48
+msgid "[ Wait for \"OK to power off\" message ]"
+msgstr "[ Espere por el mensaje \"Ya Puede Apagar\" ]"
+
+#: kernelShutdown.c:49
+msgid "Rebooting."
+msgstr "Reiniciando."
+
+#: kernelShutdown.c:50
+msgid "OK to power off now."
+msgstr "Ya puede apagar"
+
+#: kernelShutdown.c:181
+msgid "Shutting down"
+msgstr "Apagando"
+
+#: kernelShutdown.c:338
+#, c-format
+msgid "SYSTEM HALTED: Panic at %s:%s(%d)"
+msgstr "SISTEMA DETENIDO: Panico en %s:%s(%d)"

@@ -1,0 +1,202 @@
+#
+# Visopsys
+# Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+# Russian translation by Liss <liss8608@list.ru>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bootmenu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-14 01:32+0100\n"
+"PO-Revision-Date: 2015-05-08 00:54+0700\n"
+"Last-Translator: Liss <liss8608@list.ru>\n"
+"Language-Team: liss <liss21@ya.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: bootmenu.c:61
+msgid "Boot Menu Installer"
+msgstr "Установщик загрузочного меню"
+
+#: bootmenu.c:66
+msgid ""
+"Visopsys Boot Menu Installer\n"
+"Copyright (C) 1998-2023 J. Andrew McLaughlin"
+msgstr ""
+"Visopsys Boot Menu Installer\n"
+"Copyright (C) 1998-2023 J. Andrew McLaughlin"
+
+#: bootmenu.c:68
+msgid ""
+"You must be a privileged user to use this command.\n"
+"(Try logging in as user \"admin\")"
+msgstr ""
+"You must be a privileged user to use this command.\n"
+"(Try logging in as user \"admin\")"
+
+#: bootmenu.c:70
+msgid "Partitions on the disk:"
+msgstr "Разделы на диске:"
+
+#: bootmenu.c:71
+msgid "Chain-loadable entries for the boot menu:"
+msgstr "Вторично-загружаемые элементы для загрузочного меню:"
+
+#: bootmenu.c:72
+msgid "Edit"
+msgstr "Правка"
+
+#: bootmenu.c:73
+msgid "Default"
+msgstr "По умолчанию"
+
+#: bootmenu.c:74
+msgid "Delete"
+msgstr "Удалить"
+
+#: bootmenu.c:75
+msgid "Automatically boot default selection after (seconds)"
+msgstr "Автоматическая загрузка выбранного элемента через (секунд)"
+
+#: bootmenu.c:77
+msgid "OK"
+msgstr "ОК"
+
+#: bootmenu.c:78
+msgid "Cancel"
+msgstr "Отмена"
+
+#: bootmenu.c:79
+msgid "Boot menu written."
+msgstr "Загрузочное меню записано"
+
+#: bootmenu.c:120
+#, c-format
+msgid ""
+"usage:\n"
+"%s <disk name>\n"
+msgstr ""
+"использование:\n"
+"%s <имя_диска>\n"
+
+#: bootmenu.c:137
+msgid "Error"
+msgstr "Ошибка"
+
+#: bootmenu.c:212
+msgid "Edit entry label"
+msgstr "Редактировать метку элемента"
+
+#: bootmenu.c:284
+#, c-format
+msgid ""
+"Enter new label (%d characters max.):\n"
+" [%s]\n"
+" ["
+msgstr ""
+"Введите новую метку (макс. символов %d):\n"
+" [%s]\n"
+" ["
+
+#: bootmenu.c:363
+msgid "Can't get memory for the logical disk list"
+msgstr "Не могу получить память для списка логических дисков"
+
+#: bootmenu.c:370
+msgid "Can't get the logical disk list"
+msgstr "Не могу получить список логических дисков"
+
+#: bootmenu.c:401
+#, c-format
+msgid "Can't open %s file"
+msgstr "Не могу открыть файл %s"
+
+#: bootmenu.c:408
+msgid "Can't get buffer memory"
+msgstr "Не могу получить буфер памяти"
+
+#: bootmenu.c:415
+#, c-format
+msgid "Can't read %s file"
+msgstr "Не могу прочитать файл %s"
+
+#: bootmenu.c:484
+#, c-format
+msgid ""
+"Disk %s\n"
+"  Label: %s\n"
+"  Filesystem: %s\n"
+"  Chain-loadable: %s\n"
+"\n"
+msgstr ""
+"Диск %s\n"
+"  Метка: %s\n"
+"  Файловая системя: %s\n"
+"  Chain-loadable: %s\n"
+"\n"
+
+#: bootmenu.c:487
+msgid "yes"
+msgstr "да"
+
+#: bootmenu.c:487
+msgid "no"
+msgstr "нет"
+
+#: bootmenu.c:697
+msgid "Can't write boot menu"
+msgstr "Не могу записать загрузочное меню"
+
+#: bootmenu.c:709
+#, c-format
+msgid "Can't write MBR %s to %s"
+msgstr "Не могу записать MBR %s на %s"
+
+#: bootmenu.c:749
+msgid "Permission Denied"
+msgstr "Доступ запрещен"
+
+#: bootmenu.c:760
+#, c-format
+msgid "Can't get disk %s"
+msgstr "Не могу получить диск %s"
+
+#: bootmenu.c:769
+#, c-format
+msgid "Disk %s is not a physical hard disk device"
+msgstr "Диск %s не физический носитель"
+
+#: bootmenu.c:777
+msgid "Can't get the list of logical disks"
+msgstr "Не могу получить список логических дисков"
+
+#: bootmenu.c:832
+#, c-format
+msgid "\"%s\" [Filesystem: %s]"
+msgstr "\"%s\" [файловая система: %s]"
+
+#: bootmenu.c:857
+msgid "There are no chain-loadable operating systems on this disk."
+msgstr ""
+
+#: bootmenu.c:901
+msgid ""
+"\n"
+"  [Cursor up/down to select, 'e' edit, '*' default\n"
+"   'd' delete, Enter to accept, 'Q' to quit]"
+msgstr ""
+"\n"
+"  [Выбор - стрелки вверх/вниз, 'e' - редактировать, '*' - по умолчанию\n"
+"   'd' - удалить, Enter - принять, 'Q' - выход]"
+
+#: bootmenu.c:968
+msgid "Can't write boot menu or MBR"
+msgstr "Не могу записать меню или MBR"
+
+#: bootmenu.c:976
+msgid "Done"
+msgstr "Готово"

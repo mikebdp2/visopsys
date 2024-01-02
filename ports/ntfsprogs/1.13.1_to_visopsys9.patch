@@ -1,0 +1,16 @@
+Index: ports/ntfsprogs/libntfs/Makefile.visopsys
+===================================================================
+RCS file: /home/andymc/Prog/cvs/visopsys/ports/ntfsprogs/libntfs/Makefile.visopsys,v
+retrieving revision 1.42
+diff -u -r1.42 Makefile.visopsys
+--- ports/ntfsprogs/libntfs/Makefile.visopsys	9 Aug 2021 00:14:57 -0000	1.42
++++ ports/ntfsprogs/libntfs/Makefile.visopsys	30 Dec 2021 17:08:41 -0000
+@@ -15,7 +15,7 @@
+ include ${ROOT}/Makefile.include
+ 
+ STDDEPS = ${ROOT}/Makefile.include Makefile.visopsys ${INCDIR}/*.h \
+-	${SYSINCDIR}/*.h ${SYSINCDIR}/sys/*.h
++	${SYSINCDIR}/*.h ${SYSINCDIR}/sys/*.h ${SYSINCDIR}/arch/${ARCH}/*.h
+ INCLUDE = -nostdinc -I${INCDIR} -I${SYSINCDIR}
+ CFLAGS = ${OPT} ${ARCHFLAGS} ${CCODEGEN} ${CWARN} -Wno-cast-align \
+ 	-Wno-format -Wno-int-in-bool-context ${INCLUDE} -DHAVE_CONFIG_H ${DEBUG}

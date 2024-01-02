@@ -1,0 +1,29 @@
+##
+##  Visopsys
+##  Copyright (C) 1998-2023 J. Andrew McLaughlin
+##
+##  Makefile
+##
+
+BUILDDIR = build
+OUTPUTDIR = ../../${BUILDDIR}/system/libraries
+
+all:
+	mkdir -p ${OUTPUTDIR}
+	${MAKE} -C libntfs -f Makefile.visopsys BUILDDIR=${BUILDDIR} \
+		DEBUG=${DEBUG}
+	${MAKE} -C de BUILDDIR=${BUILDDIR}
+	${MAKE} -C es BUILDDIR=${BUILDDIR}
+	${MAKE} -C ru BUILDDIR=${BUILDDIR}
+	${MAKE} -C tr BUILDDIR=${BUILDDIR}
+
+clean:
+	rm -f *~ *.o core
+	${MAKE} -C include/ntfs -f Makefile.visopsys BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C libntfs -f Makefile.visopsys BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C ntfsprogs -f Makefile.visopsys BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C de BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C es BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C ru BUILDDIR=${BUILDDIR} clean
+	${MAKE} -C tr BUILDDIR=${BUILDDIR} clean
+

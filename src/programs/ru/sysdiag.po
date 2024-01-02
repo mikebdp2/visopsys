@@ -1,0 +1,187 @@
+#
+# Visopsys
+# Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+# Russian translation by Liss <liss8608@list.ru>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sysdiag\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-14 01:32+0100\n"
+"PO-Revision-Date: 2015-05-08 02:45+0700\n"
+"Last-Translator: Liss <liss8608@list.ru>\n"
+"Language-Team: liss <liss21@ya.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: sysdiag.c:55
+msgid "System Diagnostics"
+msgstr "Диагностика системы"
+
+#: sysdiag.c:56 sysdiag.c:1032
+msgid "Disk test"
+msgstr "Тест диска"
+
+#: sysdiag.c:57 sysdiag.c:1033
+msgid "Memory test"
+msgstr "Тест памяти"
+
+#: sysdiag.c:58 sysdiag.c:1037
+msgid "Read-only"
+msgstr "Только чтение"
+
+#: sysdiag.c:59 sysdiag.c:1038
+msgid "Read-write"
+msgstr "Чтение-запись"
+
+#: sysdiag.c:60
+msgid "Test"
+msgstr "Тест"
+
+#: sysdiag.c:61 sysdiag.c:236
+msgid "Quit"
+msgstr "Выход"
+
+#: sysdiag.c:62
+msgid ""
+"You must be a privileged user to use this command.\n"
+"(Try logging in as user \"admin\")"
+msgstr ""
+"Вы должны быть более привелегированным пользователем.\n"
+"(Попробуйте войти как \"admin\")"
+
+#: sysdiag.c:65
+msgid ""
+"Do you want to do a read-only test, or a read-write test?\n"
+"A read-only test is faster and guaranteed to be data-safe,\n"
+"however it is less thorough.  A read-write test takes\n"
+"longer and is more thorough, but can potentially cause\n"
+"some data loss if your disk is failing."
+msgstr ""
+"Хотите провести тест с параметром только-чтение,\n"
+"или же с параметром чтение-запись? \n"
+"Тест только чтением гарантирует сохранность данных,\n"
+"но он менее тщательный.  Тест с чтениме-записью \n"
+"более тщательный и требует больше времени,\n"
+"но так же может привести к потере данных."
+
+#: sysdiag.c:70
+#, c-format
+msgid "Performing %s test on disk %s"
+msgstr "Выполняется тест %s диска %s"
+
+#: sysdiag.c:71
+#, c-format
+msgid "Performing memory test of %uMB - %uMB in use"
+msgstr "Выполняется тестирование памяти в %uMB - %uMB занято"
+
+#: sysdiag.c:72
+msgid "Test cancelled"
+msgstr "Тест отменен"
+
+#: sysdiag.c:73
+msgid "Test completed"
+msgstr "Тест выполнен"
+
+#: sysdiag.c:74
+msgid "Error performing test"
+msgstr "Ошибка выполнения теста"
+
+#: sysdiag.c:75
+#, c-format
+msgid "%d errors"
+msgstr "%d ошибок"
+
+#: sysdiag.c:129
+#, c-format
+msgid ""
+"\n"
+"Press any key to continue%s"
+msgstr ""
+"\n"
+"Нажмите любую клавишу чтобы продолжить%s"
+
+#: sysdiag.c:130
+msgid ", or 'q' to quit"
+msgstr ", или  'q' чтобы выйти"
+
+#: sysdiag.c:154
+msgid "Error"
+msgstr "Ошибка"
+
+#: sysdiag.c:169
+#, c-format
+msgid ""
+"%s\n"
+"Copyright (C) 1998-2023 J. Andrew McLaughlin\n"
+msgstr ""
+"%s\n"
+"Copyright (C) 1998-2023 J. Andrew McLaughlin\n"
+
+#: sysdiag.c:224
+msgid "Please choose the disk to test:"
+msgstr "Выберите диск для теста:"
+
+#: sysdiag.c:235
+msgid "View results"
+msgstr "Просмотреть результаты"
+
+#: sysdiag.c:280
+msgid "Do you want to view the results?\n"
+msgstr "Вы хотите просмотреть результаты?\n"
+
+#: sysdiag.c:295
+msgid "Test results"
+msgstr "Результаты теста"
+
+#: sysdiag.c:327
+#, c-format
+msgid "Disk read error at sector %llu\n"
+msgstr "Ошибка чтения диска в секторе %llu\n"
+
+#: sysdiag.c:331
+#, c-format
+msgid "Disk write error at sector %llu\n"
+msgstr "Ошибка записи на диск в сеткоре %llu\n"
+
+#: sysdiag.c:335
+#, c-format
+msgid "Memory error at %llu\n"
+msgstr "Ошибка памяти в %llu\n"
+
+#: sysdiag.c:430 sysdiag.c:441
+msgid "read-write"
+msgstr "Чтение-запись"
+
+#: sysdiag.c:430 sysdiag.c:441
+msgid "read-only"
+msgstr "только чтение"
+
+#: sysdiag.c:432 sysdiag.c:680
+msgid ""
+"\n"
+"[ Press 'Q' to cancel ]\n"
+msgstr ""
+"\n"
+"[ Нажмите 'Q' для отмены ]\n"
+
+#: sysdiag.c:551
+#, c-format
+msgid "Testing disk sectors %llu/%llu"
+msgstr "Тест секторов диска %llu/%llu"
+
+#: sysdiag.c:768
+#, c-format
+msgid "Testing memory MB %llu/%llu"
+msgstr "Тест памяти MB %llu/%llu"
+
+#: sysdiag.c:1083
+msgid "Do you want to do a disk test, or a memory test?\n"
+msgstr "Хотите провести тести диска или тест памяти?\n"
+
+#~ msgid "lectoescritura"
+#~ msgstr "чтение-запись"

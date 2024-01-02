@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ifconfig.c:69
+msgid "Network Devices"
+msgstr ""
+
+#: ifconfig.c:70
+msgid "Enable"
+msgstr ""
+
+#: ifconfig.c:71
+msgid "Disable"
+msgstr ""
+
+#: ifconfig.c:72
+msgid "Enabled at startup"
+msgstr ""
+
+#: ifconfig.c:73
+msgid "Host name"
+msgstr ""
+
+#: ifconfig.c:74
+msgid "Domain name"
+msgstr ""
+
+#: ifconfig.c:75
+msgid "Devices"
+msgstr ""
+
+#: ifconfig.c:76
+msgid "OK"
+msgstr ""
+
+#: ifconfig.c:77
+msgid "Cancel"
+msgstr ""
+
+#: ifconfig.c:78
+msgid "No supported network devices."
+msgstr ""
+
+#: ifconfig.c:146
+msgid "Error"
+msgstr ""
+
+#: ifconfig.c:164
+msgid "Local Loopback"
+msgstr ""
+
+#: ifconfig.c:167
+msgid "Ethernet"
+msgstr ""
+
+#: ifconfig.c:170
+msgid "Unknown"
+msgstr ""
+
+#: ifconfig.c:176
+msgid "Link encap"
+msgstr ""
+
+#: ifconfig.c:179
+msgid "HWaddr"
+msgstr ""
+
+#: ifconfig.c:186
+msgid "inet addr"
+msgstr ""
+
+#: ifconfig.c:191
+msgid "Mask"
+msgstr ""
+
+#: ifconfig.c:196
+msgid "Bcast"
+msgstr ""
+
+#: ifconfig.c:201
+msgid "Gateway"
+msgstr ""
+
+#: ifconfig.c:206
+msgid "DNS"
+msgstr ""
+
+#: ifconfig.c:211
+msgid "RX packets"
+msgstr ""
+
+#: ifconfig.c:214 ifconfig.c:226
+msgid "errors"
+msgstr ""
+
+#: ifconfig.c:217 ifconfig.c:229
+msgid "dropped"
+msgstr ""
+
+#: ifconfig.c:220 ifconfig.c:232
+msgid "overruns"
+msgstr ""
+
+#: ifconfig.c:223
+msgid "TX packets"
+msgstr ""
+
+#: ifconfig.c:235
+msgid "link status"
+msgstr ""
+
+#: ifconfig.c:237
+msgid "LINK"
+msgstr ""
+
+#: ifconfig.c:237
+msgid "NOLINK"
+msgstr ""
+
+#: ifconfig.c:239
+msgid "running"
+msgstr ""
+
+#: ifconfig.c:241
+msgid "UP"
+msgstr ""
+
+#: ifconfig.c:241
+msgid "DOWN"
+msgstr ""
+
+#: ifconfig.c:243
+msgid "collisions"
+msgstr ""
+
+#: ifconfig.c:246
+msgid "txqueuelen"
+msgstr ""
+
+#: ifconfig.c:249
+msgid "Interrupt"
+msgstr ""
+
+#: ifconfig.c:265 ifconfig.c:746
+#, c-format
+msgid "Can't get info for device %s"
+msgstr ""
+
+#: ifconfig.c:400
+#, c-format
+msgid "Networking is %s"
+msgstr ""
+
+#: ifconfig.c:400
+msgid "enabled"
+msgstr ""
+
+#: ifconfig.c:401
+msgid "disabled"
+msgstr ""
+
+#: ifconfig.c:526
+msgid "Disabling device"
+msgstr ""
+
+#: ifconfig.c:526
+msgid "Enabling device"
+msgstr ""
+
+#: ifconfig.c:527 ifconfig.c:572
+msgid "One moment please..."
+msgstr ""
+
+#: ifconfig.c:571
+msgid "Shutting down networking"
+msgstr ""
+
+#: ifconfig.c:571
+msgid "Initializing networking"
+msgstr ""
+
+#: ifconfig.c:671
+msgid "Networking is disabled"
+msgstr ""
+
+#: ifconfig.c:878
+#, c-format
+msgid "Unknown option '%c'"
+msgstr ""
+
+#: ifconfig.c:886
+msgid "Can't get the count of network devices"
+msgstr ""

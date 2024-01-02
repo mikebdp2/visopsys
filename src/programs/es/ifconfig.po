@@ -1,0 +1,210 @@
+#
+#  Visopsys
+#  Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-14 01:32+0100\n"
+"PO-Revision-Date: 2014-01-22 17:32-0400\n"
+"Last-Translator: Jens Leon Wagner <nikski280@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ifconfig.c:69
+msgid "Network Devices"
+msgstr "Dispositivos de red"
+
+#: ifconfig.c:70
+msgid "Enable"
+msgstr "Activar"
+
+#: ifconfig.c:71
+msgid "Disable"
+msgstr "Desactivar"
+
+#: ifconfig.c:72
+msgid "Enabled at startup"
+msgstr "Activado al inicio del sistema"
+
+#: ifconfig.c:73
+msgid "Host name"
+msgstr "Nombre del host"
+
+#: ifconfig.c:74
+msgid "Domain name"
+msgstr "Nombre de dominio"
+
+#: ifconfig.c:75
+#, fuzzy
+msgid "Devices"
+msgstr "Dispositivos de red"
+
+#: ifconfig.c:76
+msgid "OK"
+msgstr "OK"
+
+#: ifconfig.c:77
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ifconfig.c:78
+msgid "No supported network devices."
+msgstr "Sin dispositivos de red soportados."
+
+#: ifconfig.c:146
+msgid "Error"
+msgstr "Error"
+
+#: ifconfig.c:164
+msgid "Local Loopback"
+msgstr ""
+
+#: ifconfig.c:167
+msgid "Ethernet"
+msgstr "Ethernet"
+
+#: ifconfig.c:170
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: ifconfig.c:176
+msgid "Link encap"
+msgstr "Link encap"
+
+#: ifconfig.c:179
+msgid "HWaddr"
+msgstr "HWaddr"
+
+#: ifconfig.c:186
+msgid "inet addr"
+msgstr "inet addr"
+
+#: ifconfig.c:191
+msgid "Mask"
+msgstr "Mask"
+
+#: ifconfig.c:196
+msgid "Bcast"
+msgstr "Bcast"
+
+#: ifconfig.c:201
+msgid "Gateway"
+msgstr ""
+
+#: ifconfig.c:206
+msgid "DNS"
+msgstr ""
+
+#: ifconfig.c:211
+msgid "RX packets"
+msgstr "RX packets"
+
+#: ifconfig.c:214 ifconfig.c:226
+msgid "errors"
+msgstr "errors"
+
+#: ifconfig.c:217 ifconfig.c:229
+msgid "dropped"
+msgstr "dropped"
+
+#: ifconfig.c:220 ifconfig.c:232
+msgid "overruns"
+msgstr "overruns"
+
+#: ifconfig.c:223
+msgid "TX packets"
+msgstr ""
+
+#: ifconfig.c:235
+msgid "link status"
+msgstr "link status"
+
+#: ifconfig.c:237
+msgid "LINK"
+msgstr "UNIÓN"
+
+#: ifconfig.c:237
+msgid "NOLINK"
+msgstr "SIN UNIÓN"
+
+#: ifconfig.c:239
+msgid "running"
+msgstr "running"
+
+#: ifconfig.c:241
+msgid "UP"
+msgstr "ARRIBA"
+
+#: ifconfig.c:241
+msgid "DOWN"
+msgstr "ABAJO"
+
+#: ifconfig.c:243
+msgid "collisions"
+msgstr "collisions"
+
+#: ifconfig.c:246
+msgid "txqueuelen"
+msgstr "txqueuelen"
+
+#: ifconfig.c:249
+msgid "Interrupt"
+msgstr "Interrupt"
+
+#: ifconfig.c:265 ifconfig.c:746
+#, c-format
+msgid "Can't get info for device %s"
+msgstr "No se puede obtener información acerca del dispositivo %s"
+
+#: ifconfig.c:400
+#, c-format
+msgid "Networking is %s"
+msgstr "Red %s"
+
+#: ifconfig.c:400
+msgid "enabled"
+msgstr "activado"
+
+#: ifconfig.c:401
+msgid "disabled"
+msgstr "desactivado"
+
+#: ifconfig.c:526
+#, fuzzy
+msgid "Disabling device"
+msgstr "Desactivar"
+
+#: ifconfig.c:526
+msgid "Enabling device"
+msgstr ""
+
+#: ifconfig.c:527 ifconfig.c:572
+msgid "One moment please..."
+msgstr "Un momento, por favor..."
+
+#: ifconfig.c:571
+msgid "Shutting down networking"
+msgstr "Apagando red"
+
+#: ifconfig.c:571
+msgid "Initializing networking"
+msgstr "Inicializando red"
+
+#: ifconfig.c:671
+msgid "Networking is disabled"
+msgstr "Red activada"
+
+#: ifconfig.c:878
+#, c-format
+msgid "Unknown option '%c'"
+msgstr ""
+
+#: ifconfig.c:886
+msgid "Can't get the count of network devices"
+msgstr "No se puede determinar el número de dispositivos de red"

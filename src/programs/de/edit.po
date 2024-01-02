@@ -1,0 +1,144 @@
+#
+#  Visopsys
+#  Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+#  This German translation provided by Proxma AG - www.proxma.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:33+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: edit.c:65
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: edit.c:66
+msgid "File"
+msgstr "Datei"
+
+#: edit.c:67
+msgid "Open"
+msgstr "Öffnen"
+
+#: edit.c:68
+msgid "New"
+msgstr ""
+
+#: edit.c:69
+msgid "Save"
+msgstr "Speichern"
+
+#: edit.c:70
+#, fuzzy
+msgid "Save as"
+msgstr "Speichern"
+
+#: edit.c:71
+msgid "Quit"
+msgstr "Beenden"
+
+#: edit.c:72
+msgid "Untitled"
+msgstr "Unbenannt"
+
+#: edit.c:73
+#, fuzzy
+msgid "Please enter the name of the file:"
+msgstr "Bitte geben Sie den Namen der Datei ein die bearbeitet werden soll:"
+
+#: edit.c:74
+msgid "File has been modified.  Discard changes?"
+msgstr "Datei wurde verändert. Änderungen verwerfen?"
+
+#: edit.c:75
+msgid "File already exists.  Replace it?"
+msgstr ""
+
+#: edit.c:170
+msgid "Error"
+msgstr "Fehler"
+
+#: edit.c:389
+msgid " (modified)"
+msgstr " (geändert)"
+
+#: edit.c:501
+msgid "Discard changes?"
+msgstr "Änderungen verwerfen?"
+
+#: edit.c:502
+msgid "Discard"
+msgstr "Verwerfen"
+
+#: edit.c:502 edit.c:823
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: edit.c:538
+msgid "Enter filename"
+msgstr "Dateiname eingeben"
+
+#: edit.c:755 edit.c:1732
+msgid "Couldn't create file in a read-only filesystem"
+msgstr ""
+"Das Dateisystem ist schreibgeschützt, die Datei konnte nicht erstellt werden"
+
+#: edit.c:757 edit.c:1734
+#, c-format
+msgid "Error %d loading file"
+msgstr "Fehler %d beim laden der Datei"
+
+#: edit.c:777
+#, fuzzy, c-format
+msgid "Error %d opening new file"
+msgstr "Fehler %d beim laden der Datei"
+
+#: edit.c:822
+msgid "Replace file?"
+msgstr ""
+
+#: edit.c:823
+msgid "Replace"
+msgstr ""
+
+#: edit.c:866 edit.c:883 edit.c:965
+#, c-format
+msgid "Error %d saving file"
+msgstr "Fehler %d beim speichern der Datei"
+
+#: edit.c:878 edit.c:960
+#, fuzzy
+msgid "Couldn't save file in a read-only filesystem"
+msgstr ""
+"Das Dateisystem ist schreibgeschützt, die Datei konnte nicht erstellt werden"
+
+#: edit.c:934 edit.c:946 edit.c:978
+#, fuzzy
+msgid "Error starting thread"
+msgstr "Fehler %d beim speichern der Datei"
+
+#: edit.c:1670
+#, c-format
+msgid ""
+"\n"
+"The \"%s\" command only works in graphics mode\n"
+msgstr ""
+"\n"
+"Der Befehl \"%s\" funktioniert nur im Grafik-Modus \n"
+
+#: edit.c:1686
+#, c-format
+msgid "Unknown option '%c'"
+msgstr ""
+
+#~ msgid "Unable to launch file dialog"
+#~ msgstr "Datei-Fenster konnte nicht gestartet werden"

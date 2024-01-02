@@ -1,0 +1,90 @@
+BUILDING VISOPSYS
+
+Visopsys is developed using Linux (current version is Mint 20.2).  To build
+Visopsys you will need the following tools:
+
+- The source code for GNU Binutils https://www.gnu.org/software/binutils/
+  The most recent Binutils version tested with Visopsys is 2.34.  Note that
+  building Binutils requires the 'texinfo' package.
+
+- The source code for the GNU C Compiler (GCC) https://gcc.gnu.org
+  The most recent GCC version tested with Visopsys is 9.3.0.  Note that
+  building GCC requires the 'libgmp3-dev', 'libmpfr-dev', and 'libmpc-dev'
+  packages.
+
+- An existing native compiler on your host system that can build Binutils and
+  GCC.  
+
+- A 'make' utility of some kind.  I use GNU Make version 4.2.1.
+
+- The Netwide Assembler (NASM).  The most recent version tested with Visopsys
+  is 2.14.02.  (Available at http://nasm.us)
+
+- GNU gettext, for generating language message files.  I use version 0.19.8.1.
+
+Once you have the items listed above, build the cross-compiling toolchain.
+
+Unzip the Binutils sources in toolchain/binutils, and ensure that a 'src'
+softlink points to it, like:
+
+	src -> binutils-2.34
+
+Run the build.sh command for the desired architecture (currently only 'x86' is
+supported):
+
+	./build.sh x86
+
+The resulting binaries will be installed in the toolchain/x86 directory.
+
+Unzip the GCC sources in toolchain/gcc, and ensure that a 'src' softlink
+points to it, like:
+
+	src -> gcc-9.3.0
+
+Run the build.sh command for the desired architecture (currently only 'x86' is
+supported):
+
+	./build.sh x86
+
+The resulting binaries will be installed in the toolchain/x86 directory.
+
+Finally, build Visopsys by simply executing a 'make' or 'make debug' command
+in the top-level directory.
+
+After you've built the system, you can install it using the install.sh script
+in the utils directory.  The script takes the name of a device or partition as
+its argument.  For example, change to the utils directory, and run:
+
+	./install.sh -basic /dev/fd0
+
+to install a basic system on the first floppy disk, or
+
+	./install.sh /dev/hda2
+
+to install a full system on the second partition of the first IDE hard disk.
+
+If you want to create an ISO (CD-ROM) image, change to the utils directory,
+become the root user, and run:
+
+	./image-cd.sh
+
+If you want to create a USB image, change to the utils directory, become the
+root user, and run:
+
+	./image-usb.sh
+
+If you want to create a floppy disk image, change to the utils directory,
+become the root user, and run:
+
+	./image-floppy.sh
+
+If you want to create a source distribution, change to the utils directory and
+run:
+
+	./archive-source.sh
+
+Good luck, and let me know if there's any help I can offer.
+
+Andy McLaughlin <andy@visopsys.org>
+24/07/2021
+

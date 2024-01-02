@@ -1,0 +1,143 @@
+#
+# Visopsys
+# Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+# Russian translation by Liss <liss8608@list.ru>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: edit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:33+0100\n"
+"PO-Revision-Date: 2015-05-08 02:36+0700\n"
+"Last-Translator: Liss <liss8608@list.ru>\n"
+"Language-Team: liss <liss21@ya.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+
+#: edit.c:65
+msgid "Edit"
+msgstr "Правка"
+
+#: edit.c:66
+msgid "File"
+msgstr "Файл"
+
+#: edit.c:67
+msgid "Open"
+msgstr "Открыть"
+
+#: edit.c:68
+msgid "New"
+msgstr ""
+
+#: edit.c:69
+msgid "Save"
+msgstr "Сохранить"
+
+#: edit.c:70
+#, fuzzy
+msgid "Save as"
+msgstr "Сохранить"
+
+#: edit.c:71
+msgid "Quit"
+msgstr "Выход"
+
+#: edit.c:72
+msgid "Untitled"
+msgstr "Безымянный"
+
+#: edit.c:73
+#, fuzzy
+msgid "Please enter the name of the file:"
+msgstr "Введите имя файла для редактирования:"
+
+#: edit.c:74
+msgid "File has been modified.  Discard changes?"
+msgstr "Файл изменен. Отклонить изменения?"
+
+#: edit.c:75
+msgid "File already exists.  Replace it?"
+msgstr ""
+
+#: edit.c:170
+msgid "Error"
+msgstr "Ошибка"
+
+#: edit.c:389
+msgid " (modified)"
+msgstr "(изменен)"
+
+#: edit.c:501
+msgid "Discard changes?"
+msgstr "Отклонить изменения?"
+
+#: edit.c:502
+msgid "Discard"
+msgstr "Отклонить"
+
+#: edit.c:502 edit.c:823
+msgid "Cancel"
+msgstr "Отмена"
+
+#: edit.c:538
+msgid "Enter filename"
+msgstr "Введите имя файла"
+
+#: edit.c:755 edit.c:1732
+msgid "Couldn't create file in a read-only filesystem"
+msgstr "Не могу создать файл в ФС только для чтения"
+
+#: edit.c:757 edit.c:1734
+#, c-format
+msgid "Error %d loading file"
+msgstr "Ошибка %d загрузки  файла"
+
+#: edit.c:777
+#, fuzzy, c-format
+msgid "Error %d opening new file"
+msgstr "Ошибка %d загрузки  файла"
+
+#: edit.c:822
+msgid "Replace file?"
+msgstr ""
+
+#: edit.c:823
+msgid "Replace"
+msgstr ""
+
+#: edit.c:866 edit.c:883 edit.c:965
+#, c-format
+msgid "Error %d saving file"
+msgstr "Ошибка %d сохранения файла"
+
+#: edit.c:878 edit.c:960
+#, fuzzy
+msgid "Couldn't save file in a read-only filesystem"
+msgstr "Не могу создать файл в ФС только для чтения"
+
+#: edit.c:934 edit.c:946 edit.c:978
+#, fuzzy
+msgid "Error starting thread"
+msgstr "Ошибка %d сохранения файла"
+
+#: edit.c:1670
+#, c-format
+msgid ""
+"\n"
+"The \"%s\" command only works in graphics mode\n"
+msgstr ""
+"\n"
+"Команда  \"%s\" работает только в графическом режиме\n"
+
+#: edit.c:1686
+#, c-format
+msgid "Unknown option '%c'"
+msgstr ""
+
+#~ msgid "Unable to launch file dialog"
+#~ msgstr "Невозможно запустить файловый диалог"

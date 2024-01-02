@@ -1,0 +1,71 @@
+#
+#  Visopsys
+#  Copyright (C) 1998-2023 J. Andrew McLaughlin
+#
+#  The system messages translated to Turkish by Doga Ozkaracaabatlioglu.
+#  Sistem mesajlari Türkçe'ye Doga Özkaracaabatlioglu tarafindan çevirilmistir.
+#  Doga.Ozkaraca - doga.ozkaraca@gmail.com - dogaozkaraca.com
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-14 01:32+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Doga Ozkaracaabatlioglu <doga.ozkaraca@gmail.com>\n"
+"Language-Team: Turkish/Türkçe\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: filebrowse.c:61
+msgid "File Browser"
+msgstr "Dosya Gezgini"
+
+#: filebrowse.c:62
+msgid "File"
+msgstr "Dosya"
+
+#: filebrowse.c:63
+msgid "Quit"
+msgstr "Çık"
+
+#: filebrowse.c:64
+msgid "View"
+msgstr "Görüntüle"
+
+#: filebrowse.c:65
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: filebrowse.c:127
+msgid "Error"
+msgstr "Hata"
+
+#: filebrowse.c:283
+#, c-format
+msgid "Couldn't execute command \"%s\""
+msgstr ""
+
+#: filebrowse.c:481
+#, c-format
+msgid ""
+"\n"
+"The \"%s\" command only works in graphics mode\n"
+msgstr ""
+"\n"
+"\"%s\" komutu sadece grafik modda çalışabilir\n"
+
+#: filebrowse.c:495
+msgid "Memory allocation error"
+msgstr "Bellek ayırma hatası"
+
+#: filebrowse.c:510
+#, c-format
+msgid "Can't change to directory \"%s\""
+msgstr "\"%s\" klasörü açılamadı"
+
+#: filebrowse.c:517
+msgid "Can't determine current directory"
+msgstr "Mevcut bulunulan klasör belirlenemiyor"

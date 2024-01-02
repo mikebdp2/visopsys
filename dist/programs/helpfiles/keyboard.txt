@@ -1,0 +1,10 @@
+
+ -- keyboard --
+
+Display a virtual keyboard
+
+Usage:
+  keyboard [-i]
+
+The -i flag means run in an 'iconified' mode.
+

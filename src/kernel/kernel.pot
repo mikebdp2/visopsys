@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-21 09:34+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kernelFilesystemFat.c:3055
+#, c-format
+msgid "Defragmenting %llu/%llu: %s"
+msgstr ""
+
+#: kernelFilesystemFat.c:4295 kernelFilesystemFat.c:4574
+msgid "Reading filesystem info"
+msgstr ""
+
+#: kernelFilesystemFat.c:4334
+msgid "Analyzing"
+msgstr ""
+
+#: kernelFilesystemFat.c:4348
+#, c-format
+msgid "%llu files need defragmentation"
+msgstr ""
+
+#: kernelFilesystemFat.c:4458
+msgid "Checking constraints"
+msgstr ""
+
+#: kernelFilesystemFat.c:4551
+msgid "Error getting resizing constraints"
+msgstr ""
+
+#: kernelFilesystemFat.c:4559
+#, c-format
+msgid "Filesystem cannot resize to %llu blocks (minimum is %llu)"
+msgstr ""
+
+#: kernelFilesystemFat.c:4564
+#, c-format
+msgid "Filesystem cannot resize to %llu blocks (maximum is %llu)"
+msgstr ""
+
+#: kernelFilesystemFat.c:4582 kernelFilesystemFat.c:4638
+msgid "Error reading filesystem info"
+msgstr ""
+
+#: kernelFilesystemFat.c:4590 kernelFilesystemFat.c:4647
+msgid "Unable to create the free cluster bitmap"
+msgstr ""
+
+#: kernelFilesystemFat.c:4622
+msgid "Defragmenting"
+msgstr ""
+
+#: kernelFilesystemFat.c:4630
+msgid "Error defragmenting filesystem"
+msgstr ""
+
+#: kernelFilesystemFat.c:4660
+#, c-format
+msgid "Data exists outside the new size (%llu >= %llu)"
+msgstr ""
+
+#: kernelFilesystemFat.c:4688
+msgid "Error moving data"
+msgstr ""
+
+#: kernelFilesystemFat.c:4699
+msgid "Clearing new FAT sectors"
+msgstr ""
+
+#: kernelFilesystemFat.c:4706
+msgid "Error getting memory"
+msgstr ""
+
+#: kernelFilesystemFat.c:4725
+msgid "Error clearing new FAT sectors"
+msgstr ""
+
+#: kernelFilesystemFat.c:4738
+msgid "Error synching FAT copies"
+msgstr ""
+
+#: kernelFilesystemFat.c:4748
+msgid "Updating filesystem info"
+msgstr ""
+
+#: kernelFilesystemFat.c:4763 kernelFilesystemFat.c:4772
+msgid "Error updating filesystem info"
+msgstr ""
+
+#: kernelShutdown.c:47
+msgid "Shutting down Visopsys, please wait..."
+msgstr ""
+
+#: kernelShutdown.c:48
+msgid "[ Wait for \"OK to power off\" message ]"
+msgstr ""
+
+#: kernelShutdown.c:49
+msgid "Rebooting."
+msgstr ""
+
+#: kernelShutdown.c:50
+msgid "OK to power off now."
+msgstr ""
+
+#: kernelShutdown.c:181
+msgid "Shutting down"
+msgstr ""
+
+#: kernelShutdown.c:338
+#, c-format
+msgid "SYSTEM HALTED: Panic at %s:%s(%d)"
+msgstr ""
