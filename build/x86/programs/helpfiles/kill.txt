@@ -1,0 +1,13 @@
+
+ -- kill --
+
+Kill (stop) programs or processes.
+
+Usage:
+  kill <process1> [process2] [...]
+
+The 'kill' command can be used to stop and eliminate one or more programs or
+processes.  The only mandatory parameter is a process ID number (and,
+optionally, any number of additional process ID numbers).  To see a list of
+running processes, use the 'ps' command.
+
