@@ -651,13 +651,13 @@ static void *handleConnection(void *arg)
 			break;
 	}
 
-	free(request);
-
 	if (status < 0)
 	{
 		fprintf(stderr, "%s %d\n", _("Error handling request"),
 			request->request);
 	}
+
+	free(request);
 
 out:
 	printf("%s %s\n\n", _("disconnecting"), addrString);
