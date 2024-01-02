@@ -180,6 +180,9 @@ else
 				cp "$BUILDDIR""$SRCFILE" "$MOUNTDIR""$DESTFILE"
 			fi
 		done
+	else
+		# Load the floppy boot medium as a RAM disk
+		touch $MOUNTDIR/ramdisk
 	fi
 fi
 
